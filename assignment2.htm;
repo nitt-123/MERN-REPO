@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <link rel="stylesheet" href="styles.css/style.css">
+    <style>
+       
+        #heading{
+            font-family: cursive;
+            background-color: black;
+        }
+    </style>
+</head>
+<body bgcolor="#D3D3D3">
+
+    <!--creating the header for the page and setting the color to red-->
+    <h1>Header Sections</h1>
+    <!--creating the div with heading and including styles-->
+    <div id="heading" style="border-style: groove;">
+        <h4>Text in the Div section With Heading id</h4>
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, temporibus animi. Architecto aliquid consequatur assumenda quaerat itaque earum voluptates error similique eius! Provident deserunt odit accusamus, officiis eligendi accusantium culpa?
+    </div>
+    <br><br>
+    <div id="para1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa similique aspernatur ducimus quidem, mollitia at error hic. Eum delectus architecto corporis voluptate neque? Totam fugiat deserunt, hic recusandae blanditiis iste!
+    </div>
+    <br>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt tempora nobis sit vel. Inventore, numquam? Id delectus distinctio soluta consequatur repellendus, perspiciatis nesciunt aliquid sequi ipsa deserunt blanditiis tempore eius.
+    </p>
+  <br>
+  <header class="footer">
+    Lorem ipsum dolor sit amet.
+    </header>
+    <br><br>
+<div id="first">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium cupiditate ipsum impedit exercitationem aspernatur repudiandae, error ab deserunt quisquam tenetur ipsam fugiat delectus fuga libero deleniti assumenda odit aliquid ipsa! Aspernatur maiores, ad dolores reprehenderit, eius error sint architecto libero soluta, esse dicta delectus sed at quasi placeat magni.
+</div>
+<div id="second">
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis sapiente quam omnis, accusamus quia sint explicabo impedit eum, deserunt commodi ratione facilis minima blanditiis ullam odio! Magni omnis delectus blanditiis odio, sint consectetur corrupti.
+</div>
+
+
+
+  
+</body>
+</html>
