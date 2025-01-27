@@ -1,0 +1,43 @@
+h1{
+    color: white;
+    background-color: black;
+    font-family: cursive;
+    border-style: groove ;
+}
+/*here we are using the id selector to format the element in the heading*/
+#heading{
+    font-size: large;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#para1{
+    font-family: cursive;
+    color: white;
+    background-color: black;
+    border-style: groove;
+    font-size: large;
+}
+/*element selector*/
+p{
+    font-family: cursive;
+    color: white;
+    background-color: black;
+    border-style: groove;
+    font-size: large;
+}
+/*class selector*/
+.footer{
+    font-family: cursive;
+    color: white;
+    background-color: black;
+    border-style: groove;
+    font-size: large;
+} 
+/*used the group selectors*/
+#first,second{
+    font-family: cursive;
+    color: white;
+    background-color: black;
+    border-style: groove;
+    font-size: large;
+}
