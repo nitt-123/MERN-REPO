@@ -1,0 +1,82 @@
+.raju {
+    font-family: cursive;
+    background-color: #121212; /* Darker background */
+    color: #e0e0e0; /* Light gray text for better contrast */
+    border-color: #1e1e1e; /* Subtle border color */
+    border-style: groove;
+}
+
+.first {
+    font-family: cursive;
+    background-color: #121212; /* Same dark background */
+    color: #e0e0e0;
+    border-color: #2c2c2c; /* Slightly lighter border for subtle contrast */
+    border-style: groove;
+}
+
+.article {
+    font-family: cursive;
+    background-color: #1e1e1e; /* Dark gray background for articles */
+    color: #f5f5f5; /* Brighter text for emphasis */
+    border-color: #2c2c2c;
+    border-style: groove;
+}
+
+#alpha {
+    background-color: #121212; /* Consistent dark mode color */
+}
+
+#remi {
+    background-color: #121212;
+    color: #f0f0f0; /* Slightly brighter white */
+    font-family: cursive;
+    font-weight: 400; /* Regular weight for readability */
+    font-size: larger;
+}
+
+.foot {
+    font-family: cursive;
+    background-color: #1e1e1e; /* Dark gray for footer */
+    color: #d4d4d4; /* Softer light gray */
+    border-color: #2c2c2c;
+    border-style: groove;
+}
+
+/* Navigation Styling */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e1e1e; /* Dark background for the nav bar */
+    padding: 15px 0;
+    border-radius: 8px; /* Rounded edges for a sleek look */
+}
+
+.nav-list {
+    list-style-type: none; /* Remove bullets */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px; /* Spacing between nav items */
+}
+
+.nav-list li {
+    display: inline;
+}
+
+.nav-list a {
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 18px;
+    color: #e0e0e0; /* Light gray text */
+    padding: 8px 16px;
+    border-radius: 4px; /* Smooth corners for links */
+    transition: all 0.3s ease; /* Smooth hover effects */
+}
+
+.nav-list a:hover {
+    background-color: #454545; /* Subtle hover background */
+    color: #ffffff; /* Pure white text on hover */
+}
+
+
