@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        *{
+            font-family: cursive;
+            color: red;
+            font-weight: 100;
+        }
+       
+        
+    </style>
+</head>
+<body bgcolor="lavender">
+    <!--forms for the contact me in portflolio-->
+    <div class="image">
+        <img src="https://www.manifoldkerala.com/wp-content/uploads/2021/03/campus-placements.jpg" alt="placeds" width="400px">
+    </div>
+    <form action="/submit.php" method="post">
+        <label for="Company_Name">Enter Company_Name</label>
+         <input type="text" placeholder="Enter_company_name" id="Company_Name" >
+         <br><br>
+         Choose Meeting date <input type="date">
+         <br><br>
+         Enter Contact Number<input type="text" placeholder="Enter contact Number">
+         <br><br>
+         Enter the Profile<input type="text" placeholder="Enter_profile">
+         <br><br>
+         Enter The Compensation<input type="text" placeholder="Enter_compensation in INR">
+         <br><br>
+         Insert The Job descriptions<input type="file" placeholder="Insert file">
+        <br><br>
+                      
+         Select the role
+         
+          FTE <input type="radio" name="FTE" value="Engineering">
+          6-month_intern_with_FTE<input type="radio" name="FTE" value="Part_time">
+          Summer_intern<input type="radio" name="FTE" value="Part_time">
+        <br><br>
+        Enter Your Hiring Experience
+        <br>
+        <textarea name="Hired on" id="hiring" placeholder="Enter Your Exerience On campus">
+
+        </textarea>
+    </form>
+    <h4>Have a Virtual Campus Tour</h4>
+    <iframe src="https://www.nitt.edu/" frameborder="2px"></iframe>
+</body>
+</html>
