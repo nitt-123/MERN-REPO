@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <style>
+        *{
+            margin: 2px;
+            padding: 2px;
+            font-family: cursive;
+        }
+        form{
+            background-color: lavender; 
+            border-style:groove ;
+            font-size: large;
+        } 
+        iframe{
+            
+            width: 400px;
+            height: 500px; 
+            align-items: baseline;
+        }
+        footer{
+            background-color: lavender; 
+            border-style:groove ;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <!--Creating the form for portfolio Website--> 
+    <marque dir="auto">NITT welcomes All its Recruiters for Placement Season 2026!!</marquee>
+    <form action="/submit.php" method="post">
+        <label for="Name"> Enter Company</label>
+        <input type="text" name="Company" id="name">
+        <br><br>
+        <label for="CTC">Enter Package Offered</label>
+        <input type="text" id="CTC">
+        <br><br>
+        <label for="Location">Enter Location</label>
+        <input type="text" id="location">
+        <br><br>
+        <label for="roles">Role Offered</label>
+        <select name="offers" id="roles">
+            <option value="jobs" selected disabled>Enter The role </option>
+            <option value="Summer_Intern" >Summer_Intern</option>
+            <option value="Winter_Intern">Winter_Intern</option>
+            <option value="FTE">FTE</option>
+        </select>
+        <br><br>
+        <label for="JD">Add job Description</label> 
+        <br><br>
+        <input type="file" name="file" id="JD">
+        <br><br>
+        <label for="Elligbility">Elligbility Criteria</label>
+        <input type="text" id="Elligbility">
+        <br><br>
+        <label for="Schedule">Enter Visit Date</label>
+        <input type="date" id="Schedule">
+        <br><br>
+        <label for="correspondence">Enter Contact Number</label>
+        <input type="text" maxlength="12" id="correspondence">
+        <br><br> 
+        <label for="Process_structure">Enter Hiring process</label>
+        <br>
+        <textarea name="Process_structure" id="Process_structure" cols="30" rows="10"></textarea> 
+        <br><br>
+       <input type="submit"> 
+       <!--embedding content in the webpage for video-->
+       <p>Why Hire at NITT </p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Npw7N6fuHr8?si=gYEwi2JwULtn6pZR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </form>
+   <footer>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit rem voluptatum delectus rerum cupiditate aliquid pariatur illo ad officiis ea sapiente ducimus dolore neque quo, ipsam soluta facere eligendi vel.
+   </footer>
+</body>
+</html>
